@@ -16,7 +16,7 @@ const reply = (statusCode, body) => ({
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify(body)
 });
-
+//hi
 async function getVeutelToken() {
   const encoder = new TextEncoder();
   const key = await crypto.subtle.importKey(
