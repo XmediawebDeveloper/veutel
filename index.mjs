@@ -6,7 +6,7 @@ import {
   UpdateCommand,
   DeleteCommand
 } from "@aws-sdk/lib-dynamodb";
-//hi 
+
 const API_BASE = "https://sandbox.ae.asp.veutel.com";
 const TABLE = process.env.TABLE_NAME || "marmin_submissions";
 const db = DynamoDBDocumentClient.from(new DynamoDBClient({}));
