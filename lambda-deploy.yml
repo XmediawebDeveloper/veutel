@@ -1,0 +1,5 @@
+- name: Configure AWS Credentials
+  uses: aws-actions/configure-aws-credentials@v4
+  with:
+    role-to-assume: arn:aws:iam::938145531253:role/GithubLambda
+    aws-region: ap-south-1
